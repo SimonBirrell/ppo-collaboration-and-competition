@@ -1,4 +1,4 @@
-# Proximal Policy Optimization on a Unity Environment
+# Proximal Policy Optimization on a Multi-Agent Unity Environment
 *Solution to the third project on the Udacity Deep Reinforcement Learning Course*
 
 ## Introduction
@@ -11,6 +11,7 @@ Two continuous action variables control movement towards the net (the game is 2D
 The observations (local to each agent) are 8 continuous variables representing ball and racket state (from the agent’s point of view).
 
 After each episode, the maximum score from the two agents is taken. This is then averaged over the last 100 episodes. When this trailing average passes +0.5, the task is considered solved.
+
 The code uses the PPO (Proximal Policy Optimization) algorithm to arrive at a solution in 1500-1800 episodes.
 
 This solution contains some new code to perform automated hyperparameter searches.
