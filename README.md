@@ -4,6 +4,9 @@
 ## Introduction
 This repo contains my solution to the third project in the Udacity Deep Reinforcement Learning Course: Collaboration and Competition. The Unity enviornment contains 2 tennis players that both follow the same policy. Their task is to keep the ball in play.
 
+[image1]: https://user-images.githubusercontent.com/10624937/42135623-e770e354-7d12-11e8-998d-29fc74429ca2.gif "Trained Agent"
+![Trained Agent][image1]
+
 The reward function is as follows. For each agent, hitting the ball over the net gets a reward of +0.1. If the ball hits the ground or is outside the court, the reward is -0.01. 
 
 Two continuous action variables control movement towards the net (the game is 2D not 3D) and a jumping motion.
