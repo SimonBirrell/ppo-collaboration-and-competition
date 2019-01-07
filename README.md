@@ -37,8 +37,8 @@ To set up your python environment to run the code in this repository, follow the
 	
 3. Clone the repository and navigate to the root folder.  Then, install several dependencies.
 ```bash
-git clone https://github.com/SimonBirrell/ppo-continuous-control-project.git
-cd ppo-continuous-control-project
+git clone https://github.com/SimonBirrell/ppo-collaboration-and-competition.git
+cd ppo-collaboration-and-competition
 pip install .
 ```
 
